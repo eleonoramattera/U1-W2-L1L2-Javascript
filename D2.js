@@ -59,8 +59,9 @@ console.log(x - number);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name1 = "john";
-var name2 = "John";
+let name1 = "john";
+let name2 = "John";
 console.log(name1 + " " + name2);
 
+console.log(name1 === name2);
 console.log(name1 === name2.toLowerCase());
