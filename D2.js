@@ -41,9 +41,7 @@ console.log(x);
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-let nome = "Eleonora";
-let cognome = "Mattera";
-console.log(cognome);
+name = "Mattera";
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
