@@ -14,7 +14,9 @@ REGOLE
 /*  I datatype vengono utilizzati per classificare tipi di dati differenti che vengono utilizzati e sono i seguenti:
 -Dato Stringa che indica un carattere o una sequenza di caratteri;
 -Dato Numerico che viene utilizzato sia i numeri decimali che i numeri interi;
--Dato Booleano che ammette solo due valori ovvero true e false.
+-Dato Booleano che ammette solo due valori ovvero true e false;
+-null che indica l'assenza intenzionale di valore;
+-undefined che rappresenta un valore non assegnato
 */
 
 /* ESERCIZIO 2
@@ -61,5 +63,5 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 + " " + name2);
 
-console.log(name1 === name2);
+console.log(name1 !== name2);
 console.log(name1 === name2.toLowerCase());
